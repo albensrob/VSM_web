@@ -1,0 +1,128 @@
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.line{
+	width:0%;
+	background-color:#d46668;
+	color:white;
+}
+
+.line1{
+	max-width: 50%;
+}
+
+.line2{
+	max-width: 20%;
+}
+
+.line3{
+	max-width: 70%;
+}
+
+.line4{
+	max-width: 100%;
+}
+
+.line5{
+	max-width: 90%;
+}
+
+
+
+.navbar {
+	font-family:'georgia'; 
+}
+
+.counter-value{
+	font-size: 80px;
+	font-style: bold;
+}
+
+.bg{
+    background-image: url('gambar/batik.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.bg::before{
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #e3f2fd;
+	opacity:0.85;
+}
+
+#heading1 {
+	background-color:#ffffff;
+	
+}
+#heading2 {
+	background-color:#e3f2fd;
+	
+}
+#heading3{
+	background-color:#ffffff;
+}
+
+#slide1{
+	background-image:url("gambar/logo.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.bordericon{
+	height:50px;
+	width:50px;
+	background:#111;
+	border-radius:50%;
+}
+
+.bordericon2{
+	height:50px;
+	width:50px;
+	background:#111;
+	border-radius:50%;
+}
+
+.carousel-control-next-icon{
+	position:absolute;
+}
+.carousel-control-prev-icon{
+	position:absolute;
+}
+
+.carousel.carousel-fade .carousel-item {
+    display: block !important;
+    opacity: 0 !important;
+    transition: opacity ease-out .5s !important;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#multi-slide{
+	width:1000px;
+}
