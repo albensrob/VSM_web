@@ -2,7 +2,7 @@
 	class database{
 		var $conn;
 		function _construct(){
-			$this->conn = mysqli_connect("localhost","id20868823_albensrob_db","Kakangkung!23","id20868823_test");
+			$this->conn = mysqli_connect("localhost","","","");
 		}
 		
 		function read($pref1,$pref2){
